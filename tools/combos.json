@@ -1,0 +1,4169 @@
+[
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "ActualCategory_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Missing Item",
+      "ActualCategory": "Missing Item",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "81E3CE39408B4176BBEA245ABAF1AD16",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Printing Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "426ADE76BE9348C5B7304B6D76E0EFED",
+      "ActualCategory_Valid": "426ADE76BE9348C5B7304B6D76E0EFED",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Facility Safety",
+      "ActualCategory": "Facility Safety",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "3E69ADDA447D498798BC642169F1828D",
+      "ActualCategory_Valid": "3E69ADDA447D498798BC642169F1828D",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Voicemail Issue",
+      "ActualCategory": "Voicemail Issue",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "ActualCategory_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Software",
+      "ActualCategory": "Desktop Software",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "ActualCategory_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Service Desk",
+      "ActualCategory": "Service Desk",
+      "Priority": "3",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "ActualCategory_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Service Desk",
+      "ActualCategory": "Service Desk",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "D191ED218489447F8017CF781D225494",
+      "ActualCategory_Valid": "D191ED218489447F8017CF781D225494",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Hardware",
+      "ActualCategory": "Hardware",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "05B8C5FC8DC64DA28A8776A8D8B2C986",
+      "ActualCategory_Valid": "05B8C5FC8DC64DA28A8776A8D8B2C986",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Facility Security",
+      "ActualCategory": "Facility Security",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "81E3CE39408B4176BBEA245ABAF1AD16",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Printing Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "ActualCategory_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Corrupt Mailbox",
+      "ActualCategory": "Corrupt Mailbox",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "291865D38A3D4763BEC20E47FA249FBC",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Software",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "81E3CE39408B4176BBEA245ABAF1AD16",
+      "Category_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "ActualCategory_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Printing Service",
+      "Category": "Missing Item",
+      "ActualCategory": "Missing Item",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "04182B842BB640DE8F642267D624F31C",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Payroll Administration",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "CauseCode_Valid": "D32E378AE8DD4EC68D1EBF309736E89B",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "CauseCode": "Linked Problem",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "0A5F66DE4D6547D1A9994B8CD67793E0",
+      "ActualCategory_Valid": "0A5F66DE4D6547D1A9994B8CD67793E0",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Delivery Failure",
+      "ActualCategory": "Delivery Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "ActualCategory_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Functionality",
+      "ActualCategory": "Functionality",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "ActualCategory_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "025BF6E919FD40DFA04B2109937FBE49"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Software",
+      "ActualCategory": "Desktop Software",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "E66E1AA3F9AA43E791C062E94DA15617",
+      "ActualCategory_Valid": "E66E1AA3F9AA43E791C062E94DA15617",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Failure",
+      "ActualCategory": "Application Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "ActualCategory_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Software",
+      "ActualCategory": "Desktop Software",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "497B78923E4F40C4AC23222CF41A49AF",
+      "Category_Valid": "1B8B1EB276174FB995C7A9738050161E",
+      "ActualCategory_Valid": "1B8B1EB276174FB995C7A9738050161E",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "CRM Service",
+      "Category": "Data Corruption",
+      "ActualCategory": "Data Corruption",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "025BF6E919FD40DFA04B2109937FBE49"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "71754AC55675467B8BEDE187DEC5D392",
+      "ActualCategory_Valid": "71754AC55675467B8BEDE187DEC5D392",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Backup",
+      "ActualCategory": "Backup",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "D13A249B8FC74A1FB65153DFFC39C098",
+      "ActualCategory_Valid": "D13A249B8FC74A1FB65153DFFC39C098",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Facility Maintenance",
+      "ActualCategory": "Facility Maintenance",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "ActualCategory_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Error",
+      "ActualCategory": "Application Error",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "81E3CE39408B4176BBEA245ABAF1AD16",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Printing Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "Priority": "3",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "ActualCategory_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "9C8E3960664A4DCEBE73035C161F1574"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Error Message",
+      "ActualCategory": "Error Message",
+      "CauseCode": "Other",
+      "Urgency": "Low",
+      "Impact": "High",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "BAFAC6490E6E420DA0F604CE0432FFDB",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Documentation Request",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "05B8C5FC8DC64DA28A8776A8D8B2C986",
+      "ActualCategory_Valid": "05B8C5FC8DC64DA28A8776A8D8B2C986",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Facility Security",
+      "ActualCategory": "Facility Security",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "96E9609773784B10AA727F5BDE824C90",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Reference Request",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "ActualCategory_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Performance Issue",
+      "ActualCategory": "Performance Issue",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "898DFBD7EE3F40F287CD52654A8AE35C",
+      "ActualCategory_Valid": "898DFBD7EE3F40F287CD52654A8AE35C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Software Request",
+      "ActualCategory": "Software Request",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "81E3CE39408B4176BBEA245ABAF1AD16",
+      "Category_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "ActualCategory_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Printing Service",
+      "Category": "Missing Item",
+      "ActualCategory": "Missing Item",
+      "CauseCode": "",
+      "Urgency": "Low",
+      "Impact": "High",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "ActualCategory_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Performance",
+      "ActualCategory": "Performance",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1A6C68571E6648E7A99305E1905C29B4",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Benefits Management",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Configuration",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "ActualCategory_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Software",
+      "ActualCategory": "Desktop Software",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A0C7936D3B944D72901210F8151537D5",
+      "Category_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "ActualCategory_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Financial Service",
+      "Category": "Functionality",
+      "ActualCategory": "Functionality",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "FF37A9B5D55C48A09E1FDEFD0DA90B6D",
+      "Category_Valid": "404FF5ACCAE24D0EAA0D5793441BD5A7",
+      "ActualCategory_Valid": "404FF5ACCAE24D0EAA0D5793441BD5A7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Travel Management",
+      "Category": "Misconduct",
+      "ActualCategory": "Misconduct",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "ActualCategory_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Error",
+      "ActualCategory": "Application Error",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB45DD3D9CEA4FFF8BC94C653B704E1C",
+      "ActualCategory_Valid": "FB45DD3D9CEA4FFF8BC94C653B704E1C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Hardware",
+      "ActualCategory": "Desktop Hardware",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "ActualCategory_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Data Loss",
+      "ActualCategory": "Data Loss",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "ActualCategory_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Device Failure",
+      "ActualCategory": "Device Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "D191ED218489447F8017CF781D225494",
+      "ActualCategory_Valid": "D191ED218489447F8017CF781D225494",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Hardware",
+      "ActualCategory": "Hardware",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "3E69ADDA447D498798BC642169F1828D",
+      "ActualCategory_Valid": "3E69ADDA447D498798BC642169F1828D",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Voicemail Issue",
+      "ActualCategory": "Voicemail Issue",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network folder Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A0C7936D3B944D72901210F8151537D5",
+      "Category_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "ActualCategory_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Financial Service",
+      "Category": "Performance",
+      "ActualCategory": "Performance",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "ActualCategory_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Performance Issue",
+      "ActualCategory": "Performance Issue",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "ActualCategory_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Device Failure",
+      "ActualCategory": "Device Failure",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "ActualCategory_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Telephone Failure",
+      "ActualCategory": "Telephone Failure",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "ActualCategory_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Corrupt Mailbox",
+      "ActualCategory": "Corrupt Mailbox",
+      "CauseCode": "Configuration",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "4",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "ActualCategory_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Device Failure",
+      "ActualCategory": "Device Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "Source_Valid": "2C6B9DDD886D4C25B7F194614FFCBBBB"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "ActualCategory_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Software",
+      "ActualCategory": "Desktop Software",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "0A5F66DE4D6547D1A9994B8CD67793E0",
+      "ActualCategory_Valid": "0A5F66DE4D6547D1A9994B8CD67793E0",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Delivery Failure",
+      "ActualCategory": "Delivery Failure",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1A6C68571E6648E7A99305E1905C29B4",
+      "Category_Valid": "B4AB526A714D462986831EC89A04D1C4",
+      "ActualCategory_Valid": "B4AB526A714D462986831EC89A04D1C4",
+      "CauseCode_Valid": "BAFAC6490E6E420DA0F604CE0432FFDB",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Benefits Management",
+      "Category": "Benefits Management",
+      "ActualCategory": "Benefits Management",
+      "CauseCode": "Documentation Request",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "ActualCategory_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "Source_Valid": "025BF6E919FD40DFA04B2109937FBE49"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Telephone Failure",
+      "ActualCategory": "Telephone Failure",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Other",
+      "Urgency": "Low",
+      "Impact": "Low",
+      "Priority": "5",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "CauseCode": "Hardware",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "D13A249B8FC74A1FB65153DFFC39C098",
+      "ActualCategory_Valid": "D13A249B8FC74A1FB65153DFFC39C098",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Facility Maintenance",
+      "ActualCategory": "Facility Maintenance",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "ActualCategory_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Error",
+      "ActualCategory": "Application Error",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "ActualCategory_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "025BF6E919FD40DFA04B2109937FBE49"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Error Message",
+      "ActualCategory": "Error Message",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "ActualCategory_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Data Loss",
+      "ActualCategory": "Data Loss",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "426ADE76BE9348C5B7304B6D76E0EFED",
+      "ActualCategory_Valid": "426ADE76BE9348C5B7304B6D76E0EFED",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Facility Safety",
+      "ActualCategory": "Facility Safety",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "9C8E3960664A4DCEBE73035C161F1574"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "Other",
+      "Urgency": "Low",
+      "Impact": "High",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A0C7936D3B944D72901210F8151537D5",
+      "Category_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "ActualCategory_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Financial Service",
+      "Category": "Functionality",
+      "ActualCategory": "Functionality",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "D13A249B8FC74A1FB65153DFFC39C098",
+      "ActualCategory_Valid": "D13A249B8FC74A1FB65153DFFC39C098",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Facility Maintenance",
+      "ActualCategory": "Facility Maintenance",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "ActualCategory_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Capacity",
+      "ActualCategory": "Capacity",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1A6C68571E6648E7A99305E1905C29B4",
+      "Category_Valid": "B4AB526A714D462986831EC89A04D1C4",
+      "ActualCategory_Valid": "B4AB526A714D462986831EC89A04D1C4",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Benefits Management",
+      "Category": "Benefits Management",
+      "ActualCategory": "Benefits Management",
+      "CauseCode": "Configuration",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "11C4F1939DA94101B8C8BEF07CA2D911",
+      "Category_Valid": "0CF0588F1C3849BBA802D17B5E45A4D3",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Demo Service",
+      "Category": "Demo Category",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "ActualCategory_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Device Failure",
+      "ActualCategory": "Device Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "291865D38A3D4763BEC20E47FA249FBC",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Software",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "F8BAB87D86B3478B8B8F6F97708C7BCA",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Install Request",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "36B6C2F58EF3405FA132CA9490EAEC19",
+      "ActualCategory_Valid": "36B6C2F58EF3405FA132CA9490EAEC19",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Incorrect Address Book",
+      "ActualCategory": "Incorrect Address Book",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "898DFBD7EE3F40F287CD52654A8AE35C",
+      "ActualCategory_Valid": "898DFBD7EE3F40F287CD52654A8AE35C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Software Request",
+      "ActualCategory": "Software Request",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "ActualCategory_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Device Failure",
+      "ActualCategory": "Device Failure",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "E66E1AA3F9AA43E791C062E94DA15617",
+      "ActualCategory_Valid": "E66E1AA3F9AA43E791C062E94DA15617",
+      "CauseCode_Valid": "D32E378AE8DD4EC68D1EBF309736E89B",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Failure",
+      "ActualCategory": "Application Failure",
+      "CauseCode": "Linked Problem",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "ActualCategory_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "Error Message",
+      "ActualCategory": "Error Message",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "F2252CCBD04F41AEA4D3AF7B4C588089",
+      "ActualCategory_Valid": "F2252CCBD04F41AEA4D3AF7B4C588089",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "No Dial Tone",
+      "ActualCategory": "No Dial Tone",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "7BF40750954A4CA1A1D6C41CA037EA05",
+      "Category_Valid": "1DE16571BBBE4B61BB49BFE251C7926D",
+      "ActualCategory_Valid": "1DE16571BBBE4B61BB49BFE251C7926D",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Mail Service",
+      "Category": "Non-Delivery",
+      "ActualCategory": "Non-Delivery",
+      "CauseCode": "Other",
+      "Urgency": "Low",
+      "Impact": "Low",
+      "Priority": "5",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "ActualCategory_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Software",
+      "ActualCategory": "Desktop Software",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "ActualCategory_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Telephone Failure",
+      "ActualCategory": "Telephone Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "23A8E755C330473F81A395D751F7F1EE",
+      "ActualCategory_Valid": "23A8E755C330473F81A395D751F7F1EE",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Hard Drive Failure",
+      "ActualCategory": "Hard Drive Failure",
+      "CauseCode": "Other",
+      "Urgency": "Low",
+      "Impact": "High",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "9C8E3960664A4DCEBE73035C161F1574"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Configuration",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "3E69ADDA447D498798BC642169F1828D",
+      "ActualCategory_Valid": "3E69ADDA447D498798BC642169F1828D",
+      "CauseCode_Valid": "8EBE7E57FE3944E5BA8FC84BC9C505B4",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Voicemail Issue",
+      "ActualCategory": "Voicemail Issue",
+      "CauseCode": "Training",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "B94BE5C9998949D593FAEB80B0186D68",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Installation",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "ActualCategory_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "Source_Valid": "2C6B9DDD886D4C25B7F194614FFCBBBB"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Performance Issue",
+      "ActualCategory": "Performance Issue",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "ABBEC33E46734B47B1408AE2A90A2C0C",
+      "ActualCategory_Valid": "ABBEC33E46734B47B1408AE2A90A2C0C",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Software Failure",
+      "ActualCategory": "Software Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "ActualCategory_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "025BF6E919FD40DFA04B2109937FBE49"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Telephone Failure",
+      "ActualCategory": "Telephone Failure",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "ActualCategory_Valid": "23D9340607944CDC8BD65537AA3EC231",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Telephone Failure",
+      "ActualCategory": "Telephone Failure",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "497B78923E4F40C4AC23222CF41A49AF",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "9B3CB1D7F53F465D8FEA53CD42A5EBCF",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "CRM Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Session Reset",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "92958A5E0FCF4984AFF9399740268ED5",
+      "ActualCategory_Valid": "92958A5E0FCF4984AFF9399740268ED5",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Cable Failure",
+      "ActualCategory": "Cable Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Configuration",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "ActualCategory_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Performance",
+      "ActualCategory": "Performance",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "ActualCategory_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Corrupt Mailbox",
+      "ActualCategory": "Corrupt Mailbox",
+      "CauseCode": "Other",
+      "Urgency": "Low",
+      "Impact": "Low",
+      "Priority": "5",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "005757445C794240A2464477D5FD3E0B",
+      "ActualCategory_Valid": "005757445C794240A2464477D5FD3E0B",
+      "CauseCode_Valid": "B94BE5C9998949D593FAEB80B0186D68",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Security",
+      "ActualCategory": "Application Security",
+      "CauseCode": "Installation",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C2",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Software Installation",
+      "ActualCategory": "Software Installation",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "ActualCategory_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Data Loss",
+      "ActualCategory": "Data Loss",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "1B8B1EB276174FB995C7A9738050161E",
+      "ActualCategory_Valid": "1B8B1EB276174FB995C7A9738050161E",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Data Corruption",
+      "ActualCategory": "Data Corruption",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "ActualCategory_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Service Desk",
+      "ActualCategory": "Service Desk",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "ActualCategory_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Error",
+      "ActualCategory": "Application Error",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "ActualCategory_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Data Loss",
+      "ActualCategory": "Data Loss",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "CauseCode_Valid": "B94BE5C9998949D593FAEB80B0186D68",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "CauseCode": "Installation",
+      "Urgency": "Low",
+      "Impact": "Low",
+      "Priority": "5",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1A6C68571E6648E7A99305E1905C29B4",
+      "Category_Valid": "B4AB526A714D462986831EC89A04D1C4",
+      "ActualCategory_Valid": "B4AB526A714D462986831EC89A04D1C4",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Benefits Management",
+      "Category": "Benefits Management",
+      "ActualCategory": "Benefits Management",
+      "CauseCode": "Configuration",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "F2252CCBD04F41AEA4D3AF7B4C588089",
+      "ActualCategory_Valid": "F2252CCBD04F41AEA4D3AF7B4C588089",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "No Dial Tone",
+      "ActualCategory": "No Dial Tone",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A0C7936D3B944D72901210F8151537D5",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "025BF6E919FD40DFA04B2109937FBE49"
+    },
+    "names": {
+      "Service": "Financial Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "ActualCategory_Valid": "A8311F60E7DB42F58405631D5185C3B0",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Service Desk",
+      "ActualCategory": "Service Desk",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A0C7936D3B944D72901210F8151537D5",
+      "Category_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "ActualCategory_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "CauseCode_Valid": "D32E378AE8DD4EC68D1EBF309736E89B",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Financial Service",
+      "Category": "Performance",
+      "ActualCategory": "Performance",
+      "CauseCode": "Linked Problem",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "76C4ABC919644A0B9AEBE550A99CB86A",
+      "ActualCategory_Valid": "76C4ABC919644A0B9AEBE550A99CB86A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Virus/Trojan ",
+      "ActualCategory": "Virus/Trojan ",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "ActualCategory_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Functionality",
+      "ActualCategory": "Functionality",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "0066C68EF188499583636BA6D0895FB5"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "D191ED218489447F8017CF781D225494",
+      "ActualCategory_Valid": "D191ED218489447F8017CF781D225494",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Hardware",
+      "ActualCategory": "Hardware",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "20C061482D0E43CEBC4ABF5AF3609DBC"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "8EBE7E57FE3944E5BA8FC84BC9C505B4",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Training",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Hardware",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "Source_Valid": "2C6B9DDD886D4C25B7F194614FFCBBBB"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "",
+      "Urgency": "Low",
+      "Impact": "Medium",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1E414F3333BD42F98039F954D6A1162C",
+      "Category_Valid": "005757445C794240A2464477D5FD3E0B",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "BAFAC6490E6E420DA0F604CE0432FFDB",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Application Development Service",
+      "Category": "Application Security",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Documentation Request",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "291865D38A3D4763BEC20E47FA249FBC",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Software",
+      "Urgency": "High",
+      "Impact": "Medium",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "ActualCategory_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "Error Message",
+      "ActualCategory": "Error Message",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "ActualCategory_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Capacity",
+      "ActualCategory": "Capacity",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "D32E378AE8DD4EC68D1EBF309736E89B",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Linked Problem",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "ActualCategory_Valid": "641C539C94A449FDBEC1FCCE462E8C89",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Application Error",
+      "ActualCategory": "Application Error",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "ActualCategory_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Functionality",
+      "ActualCategory": "Functionality",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E269901C361048A68482A2F9D18F8453",
+      "Category_Valid": "ED37F47210AE474BA64D0D061C296661",
+      "ActualCategory_Valid": "ED37F47210AE474BA64D0D061C296661",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Enterprise Application Service",
+      "Category": "Enterprise Application Service",
+      "ActualCategory": "Enterprise Application Service",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Configuration",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "1B8B1EB276174FB995C7A9738050161E",
+      "ActualCategory_Valid": "1B8B1EB276174FB995C7A9738050161E",
+      "CauseCode_Valid": "B94BE5C9998949D593FAEB80B0186D68",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Data Corruption",
+      "ActualCategory": "Data Corruption",
+      "CauseCode": "Installation",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "81E3CE39408B4176BBEA245ABAF1AD16",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Printing Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "Other",
+      "Urgency": "Low",
+      "Impact": "Low",
+      "Priority": "5",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "CauseCode_Valid": "9B3CB1D7F53F465D8FEA53CD42A5EBCF",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "Session Reset",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "497B78923E4F40C4AC23222CF41A49AF",
+      "Category_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "ActualCategory_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "CRM Service",
+      "Category": "Functionality",
+      "ActualCategory": "Functionality",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A0C7936D3B944D72901210F8151537D5",
+      "Category_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "ActualCategory_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Financial Service",
+      "Category": "Error Message",
+      "ActualCategory": "Error Message",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "ActualCategory_Valid": "CBE3ED4E7AC8465EAE3CABF00B31FCFE",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Device Failure",
+      "ActualCategory": "Device Failure",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "ActualCategory_Valid": "20677EA4BE914F10A61F0AE2A5B5612A",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Performance Issue",
+      "ActualCategory": "Performance Issue",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "81E3CE39408B4176BBEA245ABAF1AD16",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Printing Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "ActualCategory_Valid": "4A550AD1778746FCBA65A19A630AC2C9",
+      "Source_Valid": "E76C6D4A52844E78950A9E703C3A8F61"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Printer Failure",
+      "ActualCategory": "Printer Failure",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "ActualCategory_Valid": "8A3D042F64F94E2DB234829F231DD133",
+      "CauseCode_Valid": "B94BE5C9998949D593FAEB80B0186D68",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Data Loss",
+      "ActualCategory": "Data Loss",
+      "CauseCode": "Installation",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "Source_Valid": "2C6B9DDD886D4C25B7F194614FFCBBBB"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A5458C08ADFE493685A805DE4B1A4C57",
+      "Category_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "ActualCategory_Valid": "25E0703886374A35AA76E1A71E7402E9",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Communications Services",
+      "Category": "Functionality",
+      "ActualCategory": "Functionality",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "Source_Valid": "2C6B9DDD886D4C25B7F194614FFCBBBB"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "Urgency": "Low",
+      "Impact": "Low",
+      "Priority": "5",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "ActualCategory_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Capacity",
+      "ActualCategory": "Capacity",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "11C4F1939DA94101B8C8BEF07CA2D911",
+      "Category_Valid": "0CF0588F1C3849BBA802D17B5E45A4D3",
+      "ActualCategory_Valid": "0CF0588F1C3849BBA802D17B5E45A4D3",
+      "CauseCode_Valid": "F8BAB87D86B3478B8B8F6F97708C7BCA",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Demo Service",
+      "Category": "Demo Category",
+      "ActualCategory": "Demo Category",
+      "CauseCode": "Install Request",
+      "Urgency": "Medium",
+      "Impact": "High",
+      "Priority": "2",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "ABBEC33E46734B47B1408AE2A90A2C0C",
+      "ActualCategory_Valid": "ABBEC33E46734B47B1408AE2A90A2C0C",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Software Failure",
+      "ActualCategory": "Software Failure",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "C927222EEF5C4F86A76FAFA90220FBF3",
+      "ActualCategory_Valid": "C927222EEF5C4F86A76FAFA90220FBF3",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Internet Failure",
+      "ActualCategory": "Internet Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "ActualCategory_Valid": "601387668EAE4F09BB6D8DE4E922B2C7",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connectivity",
+      "ActualCategory": "Connectivity",
+      "CauseCode": "Other",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "11C4F1939DA94101B8C8BEF07CA2D911",
+      "Category_Valid": "0CF0588F1C3849BBA802D17B5E45A4D3",
+      "ActualCategory_Valid": "B4AB526A714D462986831EC89A04D1C4",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Demo Service",
+      "Category": "Demo Category",
+      "ActualCategory": "Benefits Management",
+      "CauseCode": "Configuration",
+      "Urgency": "High",
+      "Impact": "High",
+      "Priority": "1",
+      "Status": "Resolved"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "6DB6FE06E96D4BCBB465228F7C59AD61",
+      "ActualCategory_Valid": "6DB6FE06E96D4BCBB465228F7C59AD61",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Out of Disk Space",
+      "ActualCategory": "Out of Disk Space",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "ActualCategory_Valid": "F078046C326D4030ACF75BF71BD06FD3",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Corrupt Mailbox",
+      "ActualCategory": "Corrupt Mailbox",
+      "CauseCode": "Configuration",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "1",
+      "Status": "Logged"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A912E98E55844765934A787FF3586F34",
+      "Category_Valid": "404FF5ACCAE24D0EAA0D5793441BD5A7",
+      "ActualCategory_Valid": "404FF5ACCAE24D0EAA0D5793441BD5A7",
+      "Source_Valid": "2C6B9DDD886D4C25B7F194614FFCBBBB"
+    },
+    "names": {
+      "Service": "Service Desk",
+      "Category": "Misconduct",
+      "ActualCategory": "Misconduct",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "FF37A9B5D55C48A09E1FDEFD0DA90B6D",
+      "Category_Valid": "EED0A6F2E7EC44229752AE20578F7DFD",
+      "ActualCategory_Valid": "404FF5ACCAE24D0EAA0D5793441BD5A7",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Travel Management",
+      "Category": "Performance",
+      "ActualCategory": "Performance",
+      "CauseCode": "",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1A6C68571E6648E7A99305E1905C29B4",
+      "Category_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "ActualCategory_Valid": "6C23103F9BFD4906801FE833AEF17CBB",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Benefits Management",
+      "Category": "How-To",
+      "ActualCategory": "How-To",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "0A5F66DE4D6547D1A9994B8CD67793E0",
+      "ActualCategory_Valid": "0A5F66DE4D6547D1A9994B8CD67793E0",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Delivery Failure",
+      "ActualCategory": "Delivery Failure",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "A0C7936D3B944D72901210F8151537D5",
+      "Category_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "ActualCategory_Valid": "1F8ABA82544D45AFBC1442F2F512B157",
+      "CauseCode_Valid": "291865D38A3D4763BEC20E47FA249FBC",
+      "Source_Valid": "BB2A1F10810A439EB2F0DB745E55D1EE"
+    },
+    "names": {
+      "Service": "Financial Service",
+      "Category": "Error Message",
+      "ActualCategory": "Error Message",
+      "CauseCode": "Software",
+      "Urgency": "Medium",
+      "Impact": "Low",
+      "Priority": "4",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "ActualCategory_Valid": "E9EC7ADA85A84F82A30474C6A5425046",
+      "CauseCode_Valid": "1F7C94C4D30A4A5AB2087A010257DA48",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Capacity",
+      "ActualCategory": "Capacity",
+      "CauseCode": "Hardware",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "0B7DA198D31A404A9CCA0E4F0248D24D",
+      "Category_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "ActualCategory_Valid": "5BD87DA114314D1F87360A34A59F6E54",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Network Service",
+      "Category": "Network Folder Failure",
+      "ActualCategory": "Network Folder Failure",
+      "CauseCode": "Configuration",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "898DFBD7EE3F40F287CD52654A8AE35C",
+      "ActualCategory_Valid": "898DFBD7EE3F40F287CD52654A8AE35C",
+      "CauseCode_Valid": "F8BAB87D86B3478B8B8F6F97708C7BCA",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Software Request",
+      "ActualCategory": "Software Request",
+      "CauseCode": "Install Request",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "71754AC55675467B8BEDE187DEC5D392",
+      "ActualCategory_Valid": "71754AC55675467B8BEDE187DEC5D392",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Backup",
+      "ActualCategory": "Backup",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "164A2AB6ED554D80B3BE0B06C29DCC1A",
+      "Category_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "ActualCategory_Valid": "FB7670462FF94B77AE72445E943F6A3C",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Desktop Service",
+      "Category": "Desktop Software",
+      "ActualCategory": "Desktop Software",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "1D2C6534C7F247B3A81DF7C205F48DCA",
+      "Category_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "ActualCategory_Valid": "14348C1FFA044D8AB1E93005B4A0A287",
+      "Source_Valid": "FF0467C231124B2FA2DB2156632C8A92"
+    },
+    "names": {
+      "Service": "Facilities Management",
+      "Category": "Missing Item",
+      "ActualCategory": "Missing Item",
+      "CauseCode": "",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "E1A50127464C4CBDB7C55C77A57EDB80",
+      "Category_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "ActualCategory_Valid": "772BD339A7F24D62B66B0075EAFE7B20",
+      "CauseCode_Valid": "D8F223FA930E480883ECA4270B471631",
+      "Source_Valid": "768DF8ACAC994582A688A9CC4B63E9C2"
+    },
+    "names": {
+      "Service": "Email Service",
+      "Category": "Client Failure",
+      "ActualCategory": "Client Failure",
+      "CauseCode": "Configuration",
+      "Urgency": "Low",
+      "Impact": "Low",
+      "Priority": "5",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "741F176B943E43ADAC7425ADDC4716C2",
+      "Category_Valid": "71754AC55675467B8BEDE187DEC5D392",
+      "ActualCategory_Valid": "71754AC55675467B8BEDE187DEC5D392",
+      "CauseCode_Valid": "E2489F3F7DA34B898CCD9569CA5541F2",
+      "Source_Valid": "B7065708DF4B449F8503621393B4A7AE"
+    },
+    "names": {
+      "Service": "Data Service",
+      "Category": "Backup",
+      "ActualCategory": "Backup",
+      "CauseCode": "Other",
+      "Urgency": "Medium",
+      "Impact": "Medium",
+      "Priority": "3",
+      "Status": "Closed"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "2BBD7EDA4F104829A390C80A73CBC853",
+      "Category_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "ActualCategory_Valid": "A676B811B053466BB5EBB65FB0489C4A",
+      "Source_Valid": "EF789CE160E742F99623DBB4D29C045C"
+    },
+    "names": {
+      "Service": "Mobile Communication",
+      "Category": "Connection Failure",
+      "ActualCategory": "Connection Failure",
+      "Urgency": "High",
+      "Impact": "Low",
+      "Priority": "3",
+      "Status": "Active"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  },
+  {
+    "combo": {
+      "Service_Valid": "D8B5F2F096DB4BD98DAC89A98D522F72",
+      "Category_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "ActualCategory_Valid": "B30A0BC3F3174B22B328D742C24B59C4",
+      "Source_Valid": "025BF6E919FD40DFA04B2109937FBE49"
+    },
+    "names": {
+      "Service": "HR System",
+      "Category": "Account Lockout",
+      "ActualCategory": "Account Lockout",
+      "CauseCode": "",
+      "Urgency": "Low",
+      "Impact": "High",
+      "Priority": "3",
+      "Status": "Waiting for Resolution"
+    },
+    "HoursOfOperation": "Weekly HOP"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "values": {
+    "Urgency_Valid": [
+      "320F22CAA2984C87B06AEFD3DE6FFBBF",
+      "44021B6CC6E44E598868C4B3306053AE",
+      "6E4077D3FB6C44AA9DE3493422A27DC2"
+    ],
+    "Impact_Valid": [
+      "0ABE7B9E677D4A70BDC3BC5E9B19B258",
+      "1AFFC174C7EA4AB79CCA6B15EB67006D",
+      "C052472E5ADC45DB94624B6010F24B01"
+    ],
+    "Priority_Valid": [
+      "29CD5D78E16F4D82916C3E933A600096",
+      "3EBE541E65EF4292AC207BFE7A8A4804",
+      "C51852F3F3544F8A8F78D3E7FDE9EB2E",
+      "CBB1D619A1BD452590E84E1B0DFC4F9B",
+      "DA5FF948701D4022927500E08FCF574E"
+    ]
+  },
+  "names": {
+    "Urgency_Valid": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Impact_Valid": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Priority_Valid": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "statuses": [
+    [
+      "2905321A3B12477A82E94E289F47786B",
+      "Closed"
+    ],
+    [
+      "AB3D0090B6D8471FB0D2720D301A22AF",
+      "Logged"
+    ],
+    [
+      "D562C1C0DF4742CB8D60276059C3B828",
+      "Resolved"
+    ],
+    [
+      "EAB221009EE34AB4BC1D14A42ED099AA",
+      "Active"
+    ],
+    [
+      "ECD34E111046473BA552BB7E1D56F9EC",
+      "Waiting for Resolution"
+    ]
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "email_domain": "example.com",
+  "defaults": {
+    "ProfileLink_RecID": "<RecID профиля-инициатора из вашего инстанса>",
+    "OrganizationUnitID": "<ID подразделения>",
+    "HoursOfOperation": "<ID календаря>",
+    "CreatedBy": "HEATAdmin",
+    "LastModBy": "HEATAdmin",
+    "Status": ["Logged", "Открыт", "In Progress"]
+  },
+  "valid_values": {
+    "Service_Valid": ["<GUID сервиса 1>", "<GUID сервиса 2>"],
+    "Source_Valid": ["<GUID источника 1>"],
+    "Priority_Valid": ["<GUID низкий>", "<GUID средний>", "<GUID высокий>"],
+    "Impact_Valid": ["<GUID влияние низкое>", "<GUID влияние высокое>"],
+    "Urgency_Valid": ["<GUID срочность низкая>", "<GUID срочность высокая>"],
+    "Owner_Valid": ["<GUID исполнителя>"],
+    "OwnerTeam_Valid": ["<GUID команды>"],
+    "CauseCode_Valid": ["<GUID кода причины>"]
+  },
+  "categories": [
+    {
+      "name": "network",
+      "Category_Valid": "<GUID категории Сеть>",
+      "ActualCategory_Valid": "<GUID фактической категории Сеть>"
+    },
+    {
+      "name": "email",
+      "Category_Valid": "<GUID категории Почта>",
+      "ActualCategory_Valid": "<GUID фактической категории Почта>"
+    },
+    {
+      "name": "access",
+      "Category_Valid": "<GUID категории Доступ>",
+      "ActualCategory_Valid": "<GUID фактической категории Доступ>"
+    },
+    {
+      "name": "software",
+      "Category_Valid": "<GUID категории ПО>",
+      "ActualCategory_Valid": "<GUID фактической категории ПО>"
+    },
+    {
+      "name": "hardware",
+      "Category_Valid": "<GUID категории Оборудование>",
+      "ActualCategory_Valid": "<GUID фактической категории Оборудование>"
+    },
+    {
+      "name": "performance",
+      "Category_Valid": "<GUID категории Производительность>",
+      "ActualCategory_Valid": "<GUID фактической категории Производительность>"
+    },
+    {
+      "name": "security",
+      "Category_Valid": "<GUID категории ИБ>",
+      "ActualCategory_Valid": "<GUID фактической категории ИБ>"
+    },
+    {
+      "name": "telephony",
+      "Category_Valid": "<GUID категории Телефония>",
+      "ActualCategory_Valid": "<GUID фактической категории Телефония>"
+    },
+    {
+      "name": "database",
+      "Category_Valid": "<GUID категории БД>",
+      "ActualCategory_Valid": "<GUID фактической категории БД>"
+    },
+    {
+      "name": "business_app",
+      "Category_Valid": "<GUID категории Бизнес-приложения>",
+      "ActualCategory_Valid": "<GUID фактической категории Бизнес-приложения>"
+    }
+  ]
+}
