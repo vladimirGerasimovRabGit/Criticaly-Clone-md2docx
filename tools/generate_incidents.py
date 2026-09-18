@@ -372,18 +372,31 @@ class IncidentFactory:
             "4321CF5001A341F0B4254F4AB29B8831",
         }
         self.profiles = [p for p in (self.ref.get("profiles") or []) if p not in bad_profiles]
-        self.source_values = list(self.ref.get("enums", {}).get("Source_Valid", {}).keys())
+        bad_sources = {
+            # Closed/Resolved + Source=Chat -> DataLayer.PromptException
+            "2C6B9DDD886D4C25B7F194614FFCBBBB",
+        }
+        self.source_values = [s for s in (self.ref.get("enums", {}).get("Source_Valid", {}) or {})
+                              if s not in bad_sources]
         self.cause_values = list(self.ref.get("enums", {}).get("CauseCode_Valid", {}).keys())
         self.variation = variation or {}
         self.vary_values = self.variation.get("values", {})
         self.status_pairs = [tuple(p) for p in self.variation.get("statuses", [])]
+        self.cause_names = self.ref.get("enums", {}).get("CauseCode_Valid", {})
 
         # Пул комбинаций service+category+actualcategory, выровненный по сервисам:
         # сервисы чередуются по кругу, внутри сервиса по кругу чередуются категории.
         self.combos = combos or []
+        bad_pairs = {("FB884D18F7B746A0992880F2DFFE749C", "430F01AC03E8428A9225FA9CB6ED7ED7")}
         by_service = collections.OrderedDict()
         for c in self.combos:
-            by_service.setdefault(c["combo"].get("Service_Valid"), []).append(c)
+            combo = c.get("combo") or {}
+            key = f"{combo.get('Service_Valid')}|{combo.get('Category_Valid')}"
+            options = self.owner_pool.get(key) or []
+            usable = [o for o in options if (o.get("Owner_Valid"), o.get("OwnerTeam_Valid")) not in bad_pairs]
+            if options and not usable:
+                continue
+            by_service.setdefault(combo.get("Service_Valid"), []).append(c)
         self.service_lists = [v for v in by_service.values() if v]
 
     def _pick_base(self, index):
@@ -408,6 +421,9 @@ class IncidentFactory:
         options = self.owner_pool.get(key)
         if not options:
             return
+        # Admin + Operations отклоняется валидацией Owner на Closed/Resolved
+        bad_pairs = {("FB884D18F7B746A0992880F2DFFE749C", "430F01AC03E8428A9225FA9CB6ED7ED7")}
+        options = [o for o in options if (o.get("Owner_Valid"), o.get("OwnerTeam_Valid")) not in bad_pairs] or options
         min_used = min(self.team_usage.get(o["team_name"], 0) for o in options)
         candidates = [o for o in options if self.team_usage.get(o["team_name"], 0) == min_used]
         chosen = rng.choice(candidates)
@@ -430,6 +446,9 @@ class IncidentFactory:
             combo["Source_Valid"] = rng.choice(self.source_values)
         if self.cause_values:
             combo["CauseCode_Valid"] = rng.choice(self.cause_values)
+            cause_name = self.cause_names.get(combo["CauseCode_Valid"])
+            if cause_name:
+                combo["CauseCode"] = cause_name
         if self.profiles:
             combo["ProfileLink_RecID"] = rng.choice(self.profiles)
         status_valid, status_name = self._pick_status(rng)
@@ -506,6 +525,9 @@ class IncidentFactory:
                 "Заменено оборудование, рабочее место проверено.",
                 "Предоставлен доступ, инцидент закрыт по подтверждению пользователя.",
             ])
+            payload.setdefault("TypeOfIncident", "Failure")
+            if not payload.get("CauseCode"):
+                payload["CauseCode"] = "Other"
 
         payload = {k: v for k, v in payload.items() if v is not None}
         return {"index": index, "category": category, "reporter": fio,
@@ -617,6 +639,8 @@ def main():
     parser.add_argument("--dataset", default="incidents_dataset.jsonl")
     parser.add_argument("--failed", default="incidents_failed.ndjson")
     parser.add_argument("--state", default="incidents_state.json")
+    parser.add_argument("--status", action="append", dest="statuses",
+                        help="Ограничить статусы (можно несколько: --status Closed --status Resolved)")
     args = parser.parse_args()
 
     if not os.path.exists(args.skeletons):
@@ -650,10 +674,17 @@ def main():
 
     factory = IncidentFactory(skeletons, reference, args.seed, owner_pool,
                               combos=combos, variation=variation)
+    if args.statuses:
+        wanted = {s.strip().lower() for s in args.statuses}
+        factory.status_pairs = [p for p in factory.status_pairs if p[1].lower() in wanted]
+        if not factory.status_pairs:
+            parser.error("Нет совпадений --status с variation.json")
     mode = "PUSH" if args.push else "DRY-RUN"
+    status_names = ", ".join(name for _, name in factory.status_pairs) or "из скелетов"
     print(f"Режим: {mode}; записей: {args.count}; "
           f"комбинаций: {len(combos) or len(skeletons)} (сервисов: {len(factory.service_lists)}); "
           f"групп исполнителей: {len(owner_pool)}; "
+          f"статусы: {status_names}; "
           f"concurrency={args.concurrency}; rate={args.rate or 'unlimited'}")
 
     if not args.push:

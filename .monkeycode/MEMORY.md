@@ -118,13 +118,15 @@ This file records user instructions, preferences, and teachings for reference in
   - resume-файл incidents_state.json привязан к схеме генерации: после смены схемы для консистентного датасета нужно указывать новый --state
 
 [Project Knowledge Summary]
-- Date: 2026-09-17
-- Context: Discovered by Agent after the full 10000-record v2 push
+- Date: 2026-09-18
+- Context: Discovered by Agent after v2 push and Closed/Resolved 10000-run
 - Category: Operations & Deployment
 - Instructions:
-  - Итог: 9836 успешно из 10000, 164 ошибки; описание в .monkeycode/docs/ivanti-incident-generator.md
-  - Resume-файлы только с суффиксом v2: incidents_v2_state.json / incidents_v2_dataset.jsonl / incidents_v2_failed.ndjson
-  - Команда (из /workspace/tools): IVANTI_API_KEY=<key> python3 generate_incidents.py --count 10000 --base-url https://otbasybank-try.trysaasiteu.com/api --skeletons skeletons.json --combos combos.json --variation variation.json --owners owners.json --reference reference.json --push --insecure --concurrency 5 --state incidents_v2_state.json --dataset incidents_v2_dataset.jsonl --failed incidents_v2_failed.ndjson
-  - Closed/Resolved через REST не создаются (PromptException даже с Resolution и при PUT из Logged); Logged/Active/Waiting for Resolution проходят
-  - Три RecID профиля исключены из пула: A3CC26C6687C42BF9E8501A90A02BD08, 5D411FA1DCA7482588E505883B6A1610, 4321CF5001A341F0B4254F4AB29B8831
-  - Git на 2026-09-17: tools/, .monkeycode/ и «клонирование и оценка/» не закоммичены; коммит не создавался без явной просьбы
+  - v2 (Logged/Active/Waiting): 9836/10000; resume `incidents_v2_state.json` / `incidents_v2_dataset.jsonl` / `incidents_v2_failed.ndjson`
+  - Closed/Resolved: 10000/10000; resume `incidents_closed_state.json` / `incidents_closed_dataset.jsonl` / `incidents_closed_failed.ndjson`; seed `20260918`
+  - Команда закрытых (из /workspace/tools): `IVANTI_API_KEY=<key> python3 generate_incidents.py --count 10000 --base-url https://otbasybank-try.trysaasiteu.com/api --skeletons skeletons.json --combos combos.json --variation variation.json --owners owners.json --reference reference.json --push --insecure --concurrency 5 --status Closed --status Resolved --seed 20260918 --state incidents_closed_state.json --dataset incidents_closed_dataset.jsonl --failed incidents_closed_failed.ndjson`
+  - Closed/Resolved через POST принимают при заполненных отображаемых `CauseCode` + `Resolution`; одного `CauseCode_Valid` недостаточно (NotEmpty CauseCode)
+  - Source=Chat (`2C6B9DDD886D4C25B7F194614FFCBBBB`) на Closed/Resolved даёт `DataLayer.PromptException`; генератор исключает этот Source
+  - Пара Owner=Admin / OwnerTeam=Operations (`FB884D18...` / `430F01AC...`) отклоняется (`UndefinedValidatedValue Owner`); тройки, где это единственная пара, выкидываются из пула combos
+  - `--status Closed --status Resolved` ограничивает `variation.statuses`
+  - Три RecID профиля исключены: A3CC26C6687C42BF9E8501A90A02BD08, 5D411FA1DCA7482588E505883B6A1610, 4321CF5001A341F0B4254F4AB29B8831

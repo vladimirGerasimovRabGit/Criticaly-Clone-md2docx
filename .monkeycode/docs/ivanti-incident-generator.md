@@ -1,7 +1,7 @@
 # Генератор инцидентов Ivanti Service Manager
 
-Дата: 2026-09-17  
-Статус: прогон 10000 записей завершён (9836 успешно, 164 ошибки)
+Дата: 2026-09-18  
+Статус: v2 9836/10000; Closed/Resolved 10000/10000
 
 ## Цель
 
@@ -19,10 +19,27 @@
 | Endpoint | `POST https://otbasybank-try.trysaasiteu.com/api/odata/businessobject/incidents` |
 | Аутентификация | заголовок `Authorization: rest_api_key=<key>` |
 
-Ошибки 164:
+Ошибки 164 в v2:
 
-- 152 — статусы Closed / Resolved, сервер отвечает `DataLayer.PromptException` даже при заполненном `Resolution`. POST и последующий PUT/PATCH из Logged в Closed тоже отклоняются.
+- 152 — статусы Closed / Resolved без отображаемого `CauseCode`.
 - 12 — прочие статусы.
+
+## Итог прогона Closed/Resolved
+
+| Показатель | Значение |
+|---|---|
+| Запрошено | 10000 |
+| Успешно (уникальные индексы в `incidents_closed_state.json`) | **10000** |
+| `--status` | Closed, Resolved |
+| `--seed` | 20260918 |
+| Resume | `incidents_closed_state.json` / `incidents_closed_dataset.jsonl` / `incidents_closed_failed.ndjson` |
+
+Обязательные поля закрытия: отображаемый `CauseCode` (имя, не только `CauseCode_Valid`) и `Resolution`.
+
+Исключения генератора для Closed/Resolved:
+
+- Source `Chat` (`2C6B9DDD886D4C25B7F194614FFCBBBB`) — `PromptException`
+- пара Owner=Admin / OwnerTeam=Operations — `UndefinedValidatedValue` по Owner
 
 Три профиля контакта, из‑за которых падали 56 записей в первой тысяче, отфильтрованы. После фильтрации ошибок `Attempting to link ... ProfileLink` не осталось.
 
@@ -33,10 +50,10 @@
 - Urgency — 3 значения, равномерно
 - Impact — 3 значения, равномерно
 - Priority — 5 значений, равномерно
-- Source — 11 значений
-- CauseCode — 11 значений
+- Source — 10 значений на Closed/Resolved (Chat исключён); 11 на открытых статусах
+- CauseCode — 11 значений; для Closed/Resolved в payload пишется и имя `CauseCode`
 - ProfileLink — 69 из 72 профилей (3 отфильтрованы)
-- Status — Logged / Active / Waiting for Resolution свободно; Closed / Resolved API отклоняет
+- Status — Logged / Active / Waiting for Resolution свободно; Closed / Resolved проходят с `CauseCode` + `Resolution`
 
 Связаны и кроссовать нельзя:
 
@@ -73,6 +90,25 @@ IVANTI_API_KEY=<key> python3 generate_incidents.py \
   --failed incidents_v2_failed.ndjson
 ```
 
+Closed/Resolved (resume через `incidents_closed_state.json`):
+
+```bash
+IVANTI_API_KEY=<key> python3 generate_incidents.py \
+  --count 10000 \
+  --base-url https://otbasybank-try.trysaasiteu.com/api \
+  --skeletons skeletons.json \
+  --combos combos.json \
+  --variation variation.json \
+  --owners owners.json \
+  --reference reference.json \
+  --push --insecure --concurrency 5 \
+  --status Closed --status Resolved \
+  --seed 20260918 \
+  --state incidents_closed_state.json \
+  --dataset incidents_closed_dataset.jsonl \
+  --failed incidents_closed_failed.ndjson
+```
+
 Dry-run без API: та же команда без `--push`.
 
 ## Файлы в `tools/`
@@ -92,6 +128,9 @@ Dry-run без API: та же команда без `--push`.
 | `incidents_v2_state.json` | Resume: 9836 успешных индексов |
 | `incidents_v2_dataset.jsonl` | Успешно отправленные payload |
 | `incidents_v2_failed.ndjson` | Лог ошибок (включая повторные попытки) |
+| `incidents_closed_state.json` | Resume закрытого прогона: 10000 успешных индексов |
+| `incidents_closed_dataset.jsonl` | Успешно отправленные Closed/Resolved payload |
+| `incidents_closed_failed.ndjson` | Лог ошибок закрытого прогона |
 | `incidents_dataset.jsonl` | Dry-run 10000 старого отчёта, в API не уходил целиком |
 
 Суффикс `v2` обязателен: старый `incidents_state.json` относится к перекошенной схеме без балансировки сервисов.
@@ -105,7 +144,7 @@ Dry-run без API: та же команда без `--push`.
 - Поле `XER_Cloned` отсутствует. Генератор исключает неизвестные поля по regex `Field '([^']+)' was not found`.
 - Category зависит от Service, ActualCategory — от Category. Чужие комбинации → `UndefinedValidatedValue ... is not in the validation list`.
 - Owner зависит от OwnerTeam и от группы service+category.
-- Closed/Resolved через REST не создаются и не переводятся из Logged. Logged / Active / Waiting for Resolution проходят.
+- Closed/Resolved через REST создаются, если в payload есть отображаемый `CauseCode` и `Resolution`. Source=Chat и пара Admin/Operations на закрытии отклоняются.
 - Три RecID профиля отклоняются при линковке `ProfileLink` и исключены из пула:
   `A3CC26C6687C42BF9E8501A90A02BD08`,
   `5D411FA1DCA7482588E505883B6A1610`,
@@ -120,9 +159,6 @@ Dry-run без API: та же команда без `--push`.
 - Диагностические PROBE — 68 шт. Номера 12403–12417 (PROBE2), 12453–12499 (PROBE4), 12506–12520 (PROBE5), 12533 (PROBE7).
 - Пробные прогоны генератора — 38 шт. Номера 12382–12394, 12424–12435, 12534–12548.
 - После этого — основная выгрузка v2 (~9836 записей).
+- 2026-09-18 — выгрузка Closed/Resolved (10000 записей).
 
 Удаление не выполнялось.
-
-## Git
-
-На 2026-09-17 содержимое **не закоммичено**. Ветка `main`, последний коммит `255b0b7 Add files via upload`. Untracked: `tools/`, `.monkeycode/`, каталог `клонирование и оценка/`. Unstaged: удалён `workspace21.08.26.zip`. Коммит не создавался.
