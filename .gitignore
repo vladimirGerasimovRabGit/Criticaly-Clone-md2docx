@@ -1,0 +1,5 @@
+# Мост к браузеру (tools/mc-bridge)
+__pycache__/
+*.pyc
+tools/mc-bridge/bridge.log
+tools/mc-bridge/secrets.local.md
