@@ -1,0 +1,84 @@
+# Ivanti ISM: таблица «Актуальный сервис ↔ Категория»
+
+$ApiKey  = 'ВСТАВЬТЕ-КЛЮЧ'
+$HostUrl = 'https://svoivantiprod1.svo.air.loc'
+$Root    = "$HostUrl/HEAT/api/odata/businessobject"
+$OutDir  = Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'ivanti-report'
+$Statuses = @('Эксплуатация', 'Production')
+
+if (-not ('TrustAllCertsPolicy' -as [type])) {
+    Add-Type @"
+using System.Net; using System.Security.Cryptography.X509Certificates;
+public class TrustAllCertsPolicy : ICertificatePolicy {
+    public bool CheckValidationResult(ServicePoint sp, X509Certificate c, WebRequest r, int p) { return true; }
+}
+"@
+}
+[System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$H = @{ Authorization = "rest_api_key=$ApiKey"; Accept = 'application/json' }
+if (-not (Test-Path $OutDir)) { New-Item -ItemType Directory -Path $OutDir | Out-Null }
+
+function Get-All {
+    param([string]$Base, [string]$Query = '')
+    $all  = @()
+    $skip = 0
+    while ($true) {
+        if ([string]::IsNullOrEmpty($Query)) {
+            $u = $Base + '?$top=100&$skip=' + $skip
+        } else {
+            $u = $Base + '?' + $Query + '&$top=100&$skip=' + $skip
+        }
+        $resp = Invoke-WebRequest -Uri $u -Headers $H -TimeoutSec 60
+        $json = $resp.Content | ConvertFrom-Json
+        $b = @($json.value)
+        if ($b.Count -eq 0) { break }
+        $all += $b
+        if ($b.Count -lt 100) { break }
+        $skip += 100
+    }
+    return $all
+}
+
+Write-Host "Загрузка CI.service..."
+$f = [uri]::EscapeDataString("CIType eq 'Service'")
+$svcQuery = '$filter=' + $f + '&$select=RecId,Name,Status,ServiceCategory,TRN_KritichnostKE,Owner'
+$services   = Get-All -Base "$Root/CIs" -Query $svcQuery |
+              Where-Object { $_.Status -in $Statuses }
+Write-Host "  Сервисов актуальных: $($services.Count)"
+
+Write-Host "Загрузка Categorys..."
+$categories = Get-All -Base "$Root/Categorys"
+Write-Host "  Категорий: $($categories.Count)"
+
+$index = @{}
+foreach ($s in $services) { $index[$s.RecId] = $s }
+Write-Host "  Индекс сервисов: $($index.Count)"
+
+Write-Host "Соединение..."
+$table = $categories | ForEach-Object {
+    $c = $_
+    $key = $c.TRN_Service_Valid
+    if ([string]::IsNullOrEmpty($key)) { return }
+    $s = $index[$key]
+    if ($s) {
+        [pscustomobject]@{
+            Сервис      = $s.Name
+            Статус      = $s.Status
+            Категория   = $c.Category
+            Критичность = $s.TRN_KritichnostKE
+            Владелец    = $s.Owner
+            Приоритет   = $c.TRN_PrioritetIncidenta
+            Влияние     = $c.TRN_VliyanieIncidenta
+        }
+    }
+}
+
+$table = @($table) | Sort-Object Сервис, Категория
+
+$csv = Join-Path $OutDir 'service-category.csv'
+$table | Export-Csv -LiteralPath $csv -NoTypeInformation -Encoding UTF8
+
+Write-Host ""
+Write-Host "Готово. Строк: $($table.Count)"
+Write-Host "Файл: $csv"

@@ -1,0 +1,160 @@
+# --- Обход сертификата для PS 5.1 ---
+if (-not ('TrustAllCertsPolicy' -as [type])) {
+    Add-Type @"
+using System.Net; using System.Security.Cryptography.X509Certificates;
+public class TrustAllCertsPolicy : ICertificatePolicy {
+    public bool CheckValidationResult(ServicePoint sp, X509Certificate c, WebRequest r, int p) { return true; }
+}
+"@
+}
+[System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+$key  = 'ВСТАВЬТЕ-КЛЮЧ'
+$h    = @{ Authorization = "rest_api_key=$key"; Accept = 'application/json' }
+$Root = 'https://svoivantiprod1.svo.air.loc/HEAT/api/odata/businessobject'
+$out  = 'C:\Users\va.gerasimov\Documents\ivanti-probe-out'
+
+# >>> Актуальные статусы сервисов <<<
+# Эксплуатация и Production — один и тот же RecId VBO, но отображаются по-разному
+$ActiveStatuses = @('Эксплуатация','Production')
+
+# Если нужно включить сервисы «в работе» — раскомментировать:
+# $ActiveStatuses += @('В разработке','На согласовании')
+
+# >>> Актуальные статусы категорий <<<
+$ActiveCatStatuses = @('Эксплуатация','Production')
+
+# ---------- 1. Выгружаем все CI.service ----------
+Write-Host "Загружаем CI.service..." -ForegroundColor Cyan
+$svc = New-Object System.Collections.Generic.List[object]
+$skip = 0; $page = 100
+while ($true) {
+    $u = "$Root/CIs?`$top=$page&`$skip=$skip" +
+         "&`$filter=" + [uri]::EscapeDataString("CIType eq 'Service'") +
+         "&`$select=RecId,Name,Status,Status_Valid,ServiceCategory,ServiceCategory_Valid," +
+         "TRN_KritichnostKE,TRN_KritichnostKE_Valid,Owner,Owner_Valid,OwnerTeam," +
+         "XER_Stage,XER_Stage_Valid,ReadOnly,XER_DeleteMark,LastModDateTime"
+    try { $r = Invoke-WebRequest -Uri $u -Headers $h -TimeoutSec 30 -ErrorAction Stop } catch {
+        Write-Host "  стоп на skip=$skip : $($_.Exception.Message)" -ForegroundColor Yellow; break
+    }
+    $batch = @(($r.Content | ConvertFrom-Json).value)
+    if ($batch.Count -eq 0) { break }
+    foreach ($row in $batch) { $svc.Add($row) | Out-Null }
+    if ($batch.Count -lt $page) { break }
+    $skip += $page
+}
+Write-Host "  Всего CI.service: $($svc.Count)"
+
+$svcActive = $svc | Where-Object { $_.Status -in $ActiveStatuses }
+Write-Host "  Актуальных ($($ActiveStatuses -join ', ')): $($svcActive.Count)" -ForegroundColor Green
+
+# ---------- 2. Выгружаем все Categorys ----------
+Write-Host "Загружаем Categorys..." -ForegroundColor Cyan
+$cat = New-Object System.Collections.Generic.List[object]
+$skip = 0
+while ($true) {
+    $u = "$Root/Categorys?`$top=$page&`$skip=$skip"
+    try { $r = Invoke-WebRequest -Uri $u -Headers $h -TimeoutSec 30 -ErrorAction Stop } catch {
+        Write-Host "  стоп на skip=$skip : $($_.Exception.Message)" -ForegroundColor Yellow; break
+    }
+    $batch = @(($r.Content | ConvertFrom-Json).value)
+    if ($batch.Count -eq 0) { break }
+    foreach ($row in $batch) { $cat.Add($row) | Out-Null }
+    if ($batch.Count -lt $page) { break }
+    $skip += $page
+}
+Write-Host "  Всего категорий: $($cat.Count)"
+
+$hasCatStatus = ($cat[0].PSObject.Properties.Name -contains 'Status')
+if ($hasCatStatus) {
+    $catActive = $cat | Where-Object { $_.Status -in $ActiveCatStatuses }
+    Write-Host "  Актуальных категорий: $($catActive.Count)" -ForegroundColor Green
+} else {
+    $catActive = $cat
+    Write-Host "  Поля Status у Categorys нет — берём все" -ForegroundColor Yellow
+}
+
+# ---------- 3. Индекс сервисов ----------
+$svcIndex = @{}
+foreach ($s in $svcActive) { $svcIndex[$s.RecId] = $s }
+
+# ---------- 4. Соединяем ----------
+$table = foreach ($c in $catActive) {
+    if (-not $c.TRN_Service) { continue }
+    $s = $svcIndex[$c.TRN_Service]
+    if (-not $s) { continue }   # сервис неактуален — категорию пропускаем
+    [pscustomobject]@{
+        Service               = $s.Name
+        Service_RecId         = $s.RecId
+        Service_Status        = $s.Status
+        Service_Status_Valid  = $s.Status_Valid
+        Service_Category      = $s.ServiceCategory
+        Service_Criticality   = $s.TRN_KritichnostKE
+        Service_Stage         = $s.XER_Stage
+        Service_Owner         = $s.Owner
+        Category              = $c.Category
+        Category_RecId        = $c.RecId
+        Category_Status       = if ($hasCatStatus) { $c.Status } else { '' }
+        CompetenceCenter      = $c.SWO_CompetenceCenter_Valid
+        Company               = $c.TRN_Kompaniya_Valid
+        Priority              = $c.TRN_PrioritetIncidenta_Valid
+        Impact                = $c.TRN_VliyanieIncidenta_Valid
+        IsProblemModule       = $c.IsAvailableForProblemModule
+        Category_ReadOnly     = $c.ReadOnly
+    }
+}
+$table = $table | Sort-Object Service, Category
+
+Write-Host "`nИтоговых строк: $($table.Count)"
+$svcCount = @($table | Select-Object -ExpandProperty Service -Unique).Count
+$catCount = @($table | Select-Object -ExpandProperty Category -Unique).Count
+Write-Host "Уникальных сервисов: $svcCount, категорий: $catCount" -ForegroundColor Green
+
+# ---------- 5. Сохраняем ----------
+$table | Export-Csv "$out\service-category-active.csv" -NoTypeInformation -Encoding UTF8
+$table | ConvertTo-Json -Depth 4 | Set-Content "$out\service-category-active.json" -Encoding UTF8
+
+# Сводка по сервисам
+$byService = $table | Group-Object Service | ForEach-Object {
+    $first = $_.Group[0]
+    [pscustomobject]@{
+        Service          = $_.Name
+        Service_RecId    = $first.Service_RecId
+        Status           = $first.Service_Status
+        ServiceCategory  = $first.Service_Category
+        Criticality      = $first.Service_Criticality
+        Owner            = $first.Service_Owner
+        CategoryCount    = $_.Count
+        Categories       = ($_.Group.Category -join '; ')
+    }
+} | Sort-Object Service
+$byService | Export-Csv "$out\services-with-active-categories.csv" -NoTypeInformation -Encoding UTF8
+
+# ---------- 6. Показать ----------
+Write-Host "`n===== Первые 15 строк Service ↔ Category =====" -ForegroundColor Cyan
+$table | Select-Object -First 15 |
+    Format-Table Service, Service_Status, Category, Priority, Impact -AutoSize
+
+Write-Host "`n===== Сводка по сервисам (первые 15) =====" -ForegroundColor Cyan
+$byService | Select-Object -First 15 |
+    Format-Table Service, Status, Criticality, CategoryCount -AutoSize
+
+# ---------- 7. Топ-10 сервисов по числу категорий ----------
+Write-Host "`n===== Топ-10 сервисов по числу категорий =====" -ForegroundColor Cyan
+$byService | Sort-Object CategoryCount -Descending | Select-Object -First 10 |
+    Format-Table Service, Status, Criticality, CategoryCount -AutoSize
+
+# ---------- 8. Сервисы без категорий ----------
+$activeRecIds = $svcActive | Select-Object -ExpandProperty RecId
+$catRecIds = $table | Select-Object -ExpandProperty Service_RecId -Unique
+$orphans = $svcActive | Where-Object { $_.RecId -notin $catRecIds }
+Write-Host "`n===== Актуальные сервисы без категорий: $($orphans.Count) =====" -ForegroundColor Yellow
+$orphans | Select-Object Name, Status, ServiceCategory, Owner |
+    Format-Table -AutoSize
+$orphans | Export-Csv "$out\services-without-categories.csv" -NoTypeInformation -Encoding UTF8
+
+Write-Host "`nФайлы:"
+Write-Host "  $out\service-category-active.csv          — плоская таблица"
+Write-Host "  $out\services-with-active-categories.csv  — сводка по сервисам"
+Write-Host "  $out\services-without-categories.csv      — сервисы без категорий"
