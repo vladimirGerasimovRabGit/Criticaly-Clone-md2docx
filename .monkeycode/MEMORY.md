@@ -130,3 +130,16 @@ This file records user instructions, preferences, and teachings for reference in
   - Пара Owner=Admin / OwnerTeam=Operations (`FB884D18...` / `430F01AC...`) отклоняется (`UndefinedValidatedValue Owner`); тройки, где это единственная пара, выкидываются из пула combos
   - `--status Closed --status Resolved` ограничивает `variation.statuses`
   - Три RecID профиля исключены: A3CC26C6687C42BF9E8501A90A02BD08, 5D411FA1DCA7482588E505883B6A1610, 4321CF5001A341F0B4254F4AB29B8831
+
+[Project Knowledge Summary]
+- Date: 2026-09-24
+- Context: Discovered by Agent while restoring browser clicks (MonkeyCode 26091601.0.0 broke browser_snapshot)
+- Category: Environment Configuration
+- Instructions:
+  - В сборке MonkeyCode 26091601.0.0 сломан browser_snapshot (парсер ждёт массив, приходит строка) — browser_click/browser_type/browser_select_option не работают ни на одной странице
+  - Обход: tools/mc-bridge/bridge.py встаёт на место "agent" расширения MonkeyCode и отдаёт HTTP-API к CDP (порт 8791); подробности — AdditionalBridgeToClickandOther.md в корне репозитория
+  - Запуск: python bridge.py; в настройках расширения MonkeyCode указать agent 端口 = 8791; вернуть приложению — очистить поле порта
+  - Умеет: клики (одиночный/двойной/тройной), выделение протяжкой и программно, ввод текста, копирование/вставка через системный буфер, клавиши, скриншоты, вкладки, произвольный JS в странице
+  - Ctrl+C/Ctrl+V внедрёнными через отладчик нажатиями не срабатывают — нужен параметр commands у Input.dispatchKeyEvent (в мосте точка /edit)
+  - Самопроверка: tools/mc-bridge/selftest.ps1 — создаёт тестовую вкладку, проверяет все возможности и закрывает её
+  - Токены приложения в файлах заменены на плейсхолдеры; реальные значения хранятся локально и в репозиторий не попадают
