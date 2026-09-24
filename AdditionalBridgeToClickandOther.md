@@ -757,8 +757,10 @@ $req.Headers.Add('Origin', 'https://monkeycode-ai.com')
 
 Пузырь 142 × 56 показывает план, «58.0M / 100.0M», полоску остатка и строку
 «кредиты · время». Клик по пузырю — обновить сейчас; перетаскивание мышью
-открепляет его и превращает в обычную карточку 302 × 118 (вернуть — галочкой
-«Прикрепить к обезьяне» в контекстном меню, там же «Обновить сейчас» и «Выход»).
+открепляет пузырь от обезьяны, но размер не меняет: он остаётся таким же
+маленьким и стоит там, куда его положили. Крупная карточка 302 × 118 — пункт
+«Крупная карточка» в том же меню; вернуть под обезьяну — галочка «Прикрепить к
+обезьяне» (там же «Обновить сейчас» и «Выход»).
 Если окна обезьяны на экране нет, пузырь просто прячется. Данные обновляются раз
 в 5 минут, при ошибке запроса — раз в минуту.
 
@@ -774,11 +776,19 @@ $req.Headers.Add('Origin', 'https://monkeycode-ai.com')
 раз в 20 секунд смотрит: приложение `monkeycode-desktop` запущено, а виджета
 нет — поднимает `widget.ps1` скрыто; приложение закрыто — гасит виджет. Сам
 сторожок стартует из автозагрузки ярлыком
-`%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\mc-usage-watchdog.lnk`:
+`%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\mc-usage-watchdog.lnk`,
+а тот запускает скрипт-обёртку:
 
 ```
-powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Users\Verd-\MonkeyCode\tools\mc-usage\watchdog.ps1"
+wscript.exe //nologo "C:\Users\Verd-\MonkeyCode\tools\mc-usage\start-hidden.vbs"
 ```
+
+Внутри `start-hidden.vbs` — `WScript.Shell.Run(..., 0, False)`: стиль 0 создаёт
+процесс со скрытой консолью, и в панели задач не остаётся никакого окна. Прямой
+`powershell.exe -WindowStyle Hidden` этого не даёт: консоль у процесса всё равно
+создаётся, а у сторожка, поднятого не из автозагрузки, она оказалась ещё и
+видимой (окно класса `PseudoConsoleWindow` висело в панели задач, пока сторожок
+жив). Через `wscript` окна нет ни видимого, ни в панели задач.
 
 Пока делался сторожок, полдня ушло на грабли PowerShell 5.1 — все три ломают
 молча, без единой ошибки на экране:
@@ -810,6 +820,9 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\
 ### 13.5. Проверить, что всё живо
 
 ```powershell
+# поднять сторожок вручную, без единого окна (в автозагрузке он стартует сам)
+wscript //nologo C:\Users\Verd-\MonkeyCode\tools\mc-usage\start-hidden.vbs
+
 # разовый вывод цифр в консоль, без окна
 powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\Verd-\MonkeyCode\tools\mc-usage\widget.ps1 -Once
 
