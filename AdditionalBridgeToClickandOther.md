@@ -683,3 +683,133 @@ Get-Content C:\Users\Verd-\MonkeyCode\tools\mc-bridge\watchdog.log -Tail 5
 13. Автозапуск: написан `watchdog.ps1` и ярлык в автозагрузке; проверено
     убийством моста — сторож поднял его за 5 секунд, расширение
     подключилось само. Итоги — в приложении Г (пункты 11.1–11.4).
+14. Виджет остатка токенов: найдены те же запросы, что делает страница
+    Settings → Account (`/api/v1/users/wallet` и `/api/v1/users/subscription`),
+    поймана ловушка с cookie в PowerShell 5.1, пузырь с цифрой приклеен к окну
+    обезьяны, написан сторожок и ярлык в автозагрузке. Итоги — в приложении Е
+    (пункты 13.1–13.5).
+
+---
+
+## 13. Приложение Е. Виджет остатка токенов и пузырь над обезьяной
+
+Сделано 24.09.2026. Задача: видеть остаток токенов пакета, не открывая
+настройки (страница Settings → Account грузится около 11 секунд, всё это время
+висит на «Loading sign-in status…», окно мелькает).
+
+### 13.1. Откуда берётся цифра
+
+Приложение ходит за ней на свой API. Те же два запроса можно повторять снаружи,
+с cookie приложения:
+
+| запрос | что внутри |
+|---|---|
+| `GET https://monkeycode-ai.com/api/v1/users/wallet` | `data.daily_token_balance` — остаток токенов (из него «58.0M»), `data.daily_token_limit` — дневной лимит (100 000 000), `data.balance` — кредиты в милли-кредитах (11 267 843 → 11 267) |
+| `GET https://monkeycode-ai.com/api/v1/users/subscription` | `data.plan` (`pro`), `data.expires_at`, `enable_credit_consumption` |
+
+Cookie `monkeycode_ai_session` лежит в
+`%APPDATA%\com.chaitin.baizhi.monkeycode\monkeycode-cookies.json` — это
+JSON-массив, нужен элемент с доменом `monkeycode-ai.com` и полем `value`. Файл
+перечитывается перед каждым запросом, поэтому после нового входа в приложение
+виджет подхватывает сессию сам, без правок скрипта.
+
+**Не вызывать** `POST /api/v1/users/wallet/checkin` — он начисляет кредиты, то
+есть меняет состояние аккаунта. Остальные запросы из памятки — только чтение.
+
+### 13.2. Главная грабля: PowerShell 5.1 молча не отправляет cookie
+
+Проверено на живом аккаунте:
+
+* `Invoke-WebRequest` / `Invoke-RestMethod` с `-Headers @{ Cookie = ... }` —
+  cookie не уходит вообще, ответ `401`;
+* то же с `-WebSession` — падение с `NullReferenceException`;
+* `curl.exe` и Python с тем же cookie — `200` и те же цифры.
+
+Работает только `System.Net.HttpWebRequest` + `CookieContainer`:
+
+```powershell
+$req = [System.Net.HttpWebRequest]::Create($url)
+$req.CookieContainer = New-Object System.Net.CookieContainer
+$req.CookieContainer.Add((New-Object System.Net.Cookie('monkeycode_ai_session', $value, '/', 'monkeycode-ai.com')))
+$req.Headers.Add('Accept', 'application/json, text/plain, */*')
+$req.Headers.Add('Referer', 'https://monkeycode-ai.com/')
+$req.Headers.Add('Origin', 'https://monkeycode-ai.com')
+```
+
+### 13.3. Обезьяна: почему нельзя встроиться внутрь
+
+`MonkeyCode 桌宠` — отдельное окно самого приложения, класс
+`MonkeyCodeNativePetLayeredWindow`, 116 × 120. Через UI Automation окно отдаёт
+**ноль** дочерних элементов: рисование своё, вписаться снаружи некуда. Свою
+плашку (например «1 个任务运行中») обезьяна рисует сама, внутри своего окна, над
+головой.
+
+Решение: свой маленький пузырь **над обезьяной**, который за ней ездит. Позиция
+берётся не через UIA, а через `FindWindow` + `GetWindowRect` по имени класса, раз
+в секунду:
+
+```powershell
+[DllImport("user32.dll", CharSet = CharSet.Unicode)] static extern IntPtr FindWindow(string cls, string name);
+[DllImport("user32.dll")] static extern bool GetWindowRect(IntPtr h, out RECT r);
+```
+
+Пузырь 142 × 56 показывает план, «58.0M / 100.0M», полоску остатка и строку
+«кредиты · время». Клик по пузырю — обновить сейчас; перетаскивание мышью
+открепляет его и превращает в обычную карточку 302 × 118 (вернуть — галочкой
+«Прикрепить к обезьяне» в контекстном меню, там же «Обновить сейчас» и «Выход»).
+Если окна обезьяны на экране нет, пузырь просто прячется. Данные обновляются раз
+в 5 минут, при ошибке запроса — раз в минуту.
+
+### 13.4. Сторожок: виджет живёт вместе с обезьяной
+
+`tools/mc-usage/watchdog.ps1` (PowerShell 5.1, прав администратора не требует)
+раз в 20 секунд смотрит: приложение `monkeycode-desktop` запущено, а виджета
+нет — поднимает `widget.ps1` скрыто; приложение закрыто — гасит виджет. Сам
+сторожок стартует из автозагрузки ярлыком
+`%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\mc-usage-watchdog.lnk`:
+
+```
+powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Users\Verd-\MonkeyCode\tools\mc-usage\watchdog.ps1"
+```
+
+Пока делался сторожок, полдня ушло на грабли PowerShell 5.1 — все три ломают
+молча, без единой ошибки на экране:
+
+1. **Переменные регистронезависимы.** `$Widget` (путь к скрипту) и `$widget`
+   (список процессов) — одна и та же переменная. Список затирал путь, виджет
+   запускался с пустым `-File` и умирал на старте; в его `widget.err.log`
+   оставалось «Не удалось обработать -File "": Путь имеет недопустимую форму».
+   Лечится говорящими именами: `$WidgetFile` и `$widgets`.
+2. **`Get-Process` на несуществующее имя пишет в поток ошибок.** У процесса,
+   поднятого из автозагрузки (или через WMI), этот поток никуда не ведёт, и
+   сторожок от этой записи молча умирает — ровно тогда, когда приложение
+   закрыто и виджет надо погасить. Приложение надо искать через
+   `Get-CimInstance Win32_Process -Filter "Name='monkeycode-desktop.exe'"`.
+3. **Массив из функции разворачивается.** Функция, нашедшая ровно один виджет,
+   возвращает не массив, а один объект: `.Count` пуст, и оба сравнения —
+   `-gt 0` и `-eq 0` — ложны. Симптомы с двух сторон: виджет не гаснул за
+   закрытым приложением и не поднимался, когда его не было. Лечится обёрткой на
+   месте вызова — `$widgets = @(Get-WidgetProcesses)`. Оборачивать внутри функции
+   через запятую нельзя: получится вложенный массив, и у элементов не будет
+   `ProcessId`.
+
+Мелочи оттуда же: `-ArgumentList` массивом падает на пути с дефисом — передавать
+строкой с кавычками; файлы скриптов сохранять в UTF-8 **с BOM**, иначе 5.1
+калечит кириллицу; долгоживущим дочерним процессам обязательно перенаправлять
+вывод в файлы (`-RedirectStandardOutput` / `-RedirectStandardError`), иначе их
+ошибки пропадают бесследно.
+
+### 13.5. Проверить, что всё живо
+
+```powershell
+# разовый вывод цифр в консоль, без окна
+powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\Verd-\MonkeyCode\tools\mc-usage\widget.ps1 -Once
+
+# что делал сторожок
+Get-Content C:\Users\Verd-\MonkeyCode\tools\mc-usage\watchdog.log -Tail 5
+
+# ключ -NoPet показывает обычную карточку вместо пузыря над обезьяной
+```
+
+Откат: удалить ярлык из автозагрузки и снять процессы сторожка и виджета —
+больше система нигде не тронута.
