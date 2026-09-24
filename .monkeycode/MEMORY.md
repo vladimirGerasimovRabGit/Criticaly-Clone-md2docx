@@ -143,3 +143,24 @@ This file records user instructions, preferences, and teachings for reference in
   - Ctrl+C/Ctrl+V внедрёнными через отладчик нажатиями не срабатывают — нужен параметр commands у Input.dispatchKeyEvent (в мосте точка /edit)
   - Самопроверка: tools/mc-bridge/selftest.ps1 — создаёт тестовую вкладку, проверяет все возможности и закрывает её
   - Токены приложения в файлах заменены на плейсхолдеры; реальные значения хранятся локально и в репозиторий не попадают
+
+[User Instruction Summary]
+- Date: 2026-09-24
+- Context: Требование к языку общения (проект VPN-обхода блокировок)
+- Instructions:
+  - Все ответы и пояснения пользователю — на русском языке
+
+[Project Knowledge Summary]
+- Date: 2026-09-24
+- Context: Discovered by Agent while building a censorship-resistant VPN (RU user) on VPS 85.209.155.32
+- Category: Operations & Deployment
+- Instructions:
+  - VPS: UFO.Hosting Haedus[FI] 85.209.155.32; SSH host-алиас `awg` (/tmp/opencode/awg_ssh_config, ключ /tmp/opencode/awg_deploy); sshd/fail2ban троттлит — при `kex_exchange_identification: Connection closed`/`scp: Connection closed` подождать 5–10 мин, не чаще 1 попытки/5 сек
+  - Docker: amnezia-awg (51820/udp), xray-ss (8388, SS-2022), mtg (9443); amnezia-xray Reality остановлен (443 занят); Hysteria2 (443) и SS-2022 direct — ТСПУ душит; VPS без IPv6; *.workers.dev и *.trycloudflare.com глушатся ТСПУ по имени хоста
+  - Рабочая схема — ShadowTLS v3 на VPS: sing-box 1.14.2 (/usr/local/bin/sing-box), inbound shadowtls 0.0.0.0:443 (handshake www.bing.com:443) → detour на inbound shadowsocks 127.0.0.1:18388 (2022-blake3-aes-128-gcm); unit `sing-box-shadowtls.service`, конфиг /etc/sing-box/st_server.json (секреты — в конфиге, в чат не выводить)
+  - КРИТИЧНО: Rust shadow-tls v0.2.25 сервер НЕ совместим с sing-box-клиентом на v3-handshake (HMAC-схема расходится) — сервером обязан быть sing-box; Rust-клиент работает, годится только для диагностики
+  - КРИТИЧНО: strict_mode=false — в sing-shadowtls v0.2.1 парсер isServerHelloSupportTLS13 сломан; при strict_mode:true сервер уходит в plain-relay и клиент падает с `shadow-tls v3: hmac mismatch, possible data corruption`; non-strict стабилен (30/30 локально)
+  - Проверка маскировки: `openssl s_client -connect 85.209.155.32:443 -servername www.bing.com` → реальный сертификат Microsoft r.bing.com
+  - Клиентский профиль (sing-box JSON для Hiddify): outbound shadowsocks (server=VPS:443, password=SS-2022, detour=shadowtls) + outbound shadowtls (version 3, password, tls.server_name=www.bing.com, utls chrome); готовый файл — /workspace/ft-shadowtls.json; проверка: sing-box client + `curl --socks5-hostname` → api.ipify.org = 85.209.155.32; с песочницы 12/12 (ip+YouTube 200), но в первые ~10 с после рестарта сервера возможны ложные `hmac mismatch` — просто повторить
+  - Cloudflare не помог: воркер ftvpn (VLESS-over-WS) глушится по имени; CF-токен без прав Pages; бесплатный домен DigitalPlat блокируется KYC (лимит 1 домен); деплой воркера — multipart с filename=main_module
+  - Диагностика ShadowTLS: /tmp/opencode/capture.py (перехват ClientHello) + analyze.py (воспроизведение проверки HMAC сервера); Rust-клиент `shadow-tls --v3 client --server <локальный слушатель>` для сравнения
